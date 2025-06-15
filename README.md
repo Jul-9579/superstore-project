@@ -69,11 +69,12 @@ This project provides an end-to-end data analysis and machine learning pipeline 
 ```
 superstore-project/
 │
-├── data/                  # Raw and cleaned datasets
-├── database/              # SQL scripts and ERD diagram
-├── notebooks/             # Jupyter notebooks for analysis and clustering
-├── visuals/               # Screenshots and plots from Tableau and ML
-├── README.md              # Project documentation
+├── data/                  # Raw and cleaned datasets, plus the SQLite database file
+├── notebooks/             # Jupyter notebooks for data analysis and clustering
+├── sql/                   # SQL schema files and related scripts
+├── visuals/               # Visualizations and HTML exports from analyses
+├── .gitignore             # Git ignore rules
+└── README.md              # Project documentation
 ```
 
 ---
